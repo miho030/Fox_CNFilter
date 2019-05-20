@@ -45,8 +45,9 @@ https://www.ip2location.com/free/visitor-blocker
 - 19.05.20
 FUCK_CN 중국 ip차단 프로그램의 iptables 버전 개발
 --> CentOS, Redhat, freebsd등, iptables 설치 가능한 대부분의 리눅스 운영체제에서 구동 가능
+
 -19.05.20
-리파지토리 재구축 및 각 프로그램 분리
+-->리파지토리 재구축 및 각 프로그램 분리
 
 
 ***이 프로그램은 우분투 서버에서의 모든 중국 트래픽을 차단하는 역활을 합니다.***
