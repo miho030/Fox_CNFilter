@@ -54,7 +54,8 @@ FUCK_CN 중국 ip차단 프로그램의 iptables 버전 개발\n
 ## Requirement
 ```
 - python 2.x
-- ufw
+- ufw(기본)
+- iptables(iptables versions 폴더에 있는 프로그램 실행시)
 ```
 
 ### 태그
