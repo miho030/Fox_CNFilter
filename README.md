@@ -42,13 +42,14 @@ https://www.ip2location.com/free/visitor-blocker
 ```
 
 ## 5. 업데이트
-- 19.05.20\n
+```
+- 19.05.20
 FUCK_CN 중국 ip차단 프로그램의 iptables 버전 개발\n
 --> CentOS, Redhat, freebsd등, iptables 설치 가능한 대부분의 리눅스 운영체제에서 구동 가능
 
-- 19.05.20\n
+- 19.05.20
 -->리파지토리 재구축 및 각 프로그램 분리
-
+```
 
 ## Requirement
 - python 2.x
