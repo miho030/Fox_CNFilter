@@ -34,12 +34,19 @@ root# python FUCK_CN.py
 ## 4. 수정이 필요합니다!
 ```
 따로 수정할 사안은 없습니다.
+다만, cidr db를 새로이 받아서 사용할 경우에는 cidr_new 변수와 cidr_old 변수를 수정하셔야합니다!
+기존에 쓰인 cidr db의 이름 형식은 (국가)_ipv4-(db를 받은 날짜)입니다.
+
+새로운 cidr DB는 아래의 링크에서 다운로드 할 수 있습니다.
+https://www.ip2location.com/free/visitor-blocker
 ```
 
 ## 5. 업데이트
 - 19.05.20
 FUCK_CN 중국 ip차단 프로그램의 iptables 버전 개발
 --> CentOS, Redhat, freebsd등, iptables 설치 가능한 대부분의 리눅스 운영체제에서 구동 가능
+-19.05.20
+리파지토리 재구축 및 각 프로그램 분리
 
 
 ***이 프로그램은 우분투 서버에서의 모든 중국 트래픽을 차단하는 역활을 합니다.***
