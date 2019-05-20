@@ -52,8 +52,10 @@ FUCK_CN 중국 ip차단 프로그램의 iptables 버전 개발\n
 ```
 
 ## Requirement
+```
 - python 2.x
 - ufw
+```
 
 ### 태그
 중국 ip 차단
