@@ -2,9 +2,16 @@
 """
 CopyRight By 2019, Made by Nicht
 > OpenSource GNU GPL.Ver3
-
 """
+
+# import major Libs
+from pyfiglet import Figlet
 import os
+
+# simple logo printing
+f = Figlet(font='slant')
+print(f.renderText('FUCK CHINA'))
+
 
 cidr_old = ''
 cidr_new = 'CN_ipv4-190420.txt'
@@ -17,7 +24,7 @@ if cidr_old:
                 print('{} = {}'.format(i, line.strip()))
                 os.system('ufw delete deny from {} to any'.format(line.strip()))
 else:
-    print('file not specified')
+    print("[-]", "file not specified")
 
 if cidr_new:
     with open(cidr_new) as f:
@@ -26,4 +33,4 @@ if cidr_new:
                 print('{} = {}'.format(i, line.strip()))
                 os.system('ufw insert {} deny from {} to any'.format(number, line.strip()))
 else:
-  print('file not specified')
+    print("[-]", "file not specified")
