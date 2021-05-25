@@ -1,4 +1,4 @@
-# Ubuntu  서버에서의 모든 중국 IP 대역 차단 프로그램
+# Ubuntu  서버에서 모든 중국 IP 대역 차단 프로그램
 <hr/>
 Copyright 2019, Made By Misty; 한국인터넷진흥원 KUCIS
 <hr/>
