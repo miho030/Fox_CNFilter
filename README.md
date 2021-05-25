@@ -5,8 +5,11 @@ Copyright 2019, Made By Misty; 한국인터넷진흥원 KUCIS
 
 
 **아오! 짜증나!! 뭐야 이 중국 IP!!!!!**
+
 **서버를 구축했는데, 이상한 로그가 계속 찍힌다구요?**
+
 그런 당신을 위해 만들었습니다! cidr DB를 이용한 국가단위의 IP차단 프로그램!!!
+
 
 
 ## 1. Fox_CNFilter을 만든 계기
@@ -45,7 +48,7 @@ root# python FUCK_CN.py
 기존에 쓰인 cidr db의 이름 형식은 (국가)_ipv4-(db를 받은 날짜)입니다.
 
 새로운 cidr DB는 아래의 링크에서 다운로드 할 수 있습니다.
-원하는 국가의 DB를 다운받아 코드를 수정하세요! 
+원하는 국가의 DB를 다운받아 코드를 수정하세요! (10째줄의 파일 이름)
 https://www.ip2location.com/free/visitor-blocker
 ```
 
